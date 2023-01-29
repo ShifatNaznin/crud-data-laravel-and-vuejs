@@ -16,15 +16,15 @@ npm run serve
 .env.example to .env
 
 ### Database configuration
-DB_DATABASE=your_database_name
-DB_USERNAME=your_user_name
+DB_DATABASE=your_database_name <br>
+DB_USERNAME=your_user_name <br>
 DB_PASSWORD=your_password
 
 ### For Database create
 php artisan migrate
 
 ### Generate a new application key & storage link create
-php artisan key:generate
+php artisan key:generate <br>
 php artisan storage:link
 
 ### Start the local development server
