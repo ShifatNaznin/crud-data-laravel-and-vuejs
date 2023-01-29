@@ -1,17 +1,21 @@
 Installation
-
+<br />
 Clone the repository
+<br />
 git clone https://github.com/ShifatNaznin/crud-data-laravel-and-vuejs.git
-
+<br />
 Install all the dependencies using composer
+<br />
 composer install
-
+<br />
 Install all the dependencies using npm
+<br />
 npm install
-
+<br />
 Start the local development server
+<br />
 npm run serve
-
+<br />
 Copy the example env file and make the required configuration changes in the .env file
 .env.example to .env
 
