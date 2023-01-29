@@ -79,7 +79,6 @@ export default {
           axios
           .post("/api/user/destroy/"+id)
           .then(()=>{
-            // console.log('ok');
             this.posts = this.posts.filter(post=>{
               return post.id !=id
             })

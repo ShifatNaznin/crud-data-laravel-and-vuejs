@@ -5393,7 +5393,6 @@ __webpack_require__.r(__webpack_exports__);
       }).then(function (result) {
         if (result.isConfirmed) {
           axios.post("/api/user/destroy/" + id).then(function () {
-            // console.log('ok');
             _this2.posts = _this2.posts.filter(function (post) {
               return post.id != id;
             });
